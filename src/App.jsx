@@ -1,19 +1,7 @@
-import React from 'react';
-import './App.css';
-import Header from "./components/Header/index"
-//import Footer from "./components/Footer/index"
+import React from "react"
 
-function App() {
-  return (
-    <>
-      <div>
-      <Header />
-      <main>
-        {/* O conteúdo principal do seu aplicativo vai aqui */}
-      </main>
-    </div>
-    </>
-  )
+import AppRoutes from "./Routes"
+
+export default function App() {
+	return <AppRoutes />
 }
-
-export default App
