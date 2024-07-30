@@ -1,15 +1,22 @@
-import React from "react"
-import Header from "../../components/Header"
+import React from "react";
+import Nav from "../../components/Nav/index";
+import white from "../../assets/imgbr.jpg"
+import Produtos from "../../routes/Produtos/index"
+import "./styles.scss"
 
 export default function Home() {
     return (
-        <>
-        <Header />
-        </>
-        
-        
-        
-        
-        
+    <>
+         <div>
+            <Nav />
+                <div className="container">
+                    <section>
+                        <h1> Testando cards de produtos:</h1>
+                        <Produtos />
+                    </section>
+                </div>
+        </div>
+    </>
+          
     )
 }

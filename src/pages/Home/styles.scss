@@ -1,0 +1,39 @@
+#titulo { 
+    color: rgb(130, 21, 202);
+    font-size: 2em;
+    margin: 50px 0;
+   }
+
+main {
+    width: 1869px;
+    height: 1080px;
+    background-image: url("../../assets/imgbr.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+    background-color: #f0f0f0; /* Cor de fundo para visualização */
+    width: 1869px;
+    height: 1080px;
+    background-image: url("../../assets/imgbr.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  section {
+    background-color: white;
+    display: inline-block; /* Permite que a seção encolha para caber apenas no conteúdo */
+    padding-left: 200px; /* Ajuste o padding conforme necessário */
+    padding-right: 200px ;
+    padding-bottom: 100px;
+    border: 1px solid #ccc; /* Borda opcional para visualização */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adiciona sombra para profundidade */
+    max-width: 80%; /* Define a largura máxima */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+  }

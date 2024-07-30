@@ -1,0 +1,128 @@
+.product-card {
+   
+    border-radius: 20px;
+    padding: 16px;
+    margin: 8px;
+    width: 200px;
+    background-color: rgb(243, 203, 92);
+    width: 400px
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    max-width: 370px;
+    max-height: 295px;
+    border-radius: 20px;
+  }
+  
+  .product-card h2 {
+    margin-top: 8px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  .product-card span {
+
+  background-color: rgb(235, 126, 2);
+  color: #fff;
+  border: none;
+  padding: 4px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+// A partir daqui ui do homecard do projeto do zecao
+
+  div.home-card{
+    width: 280px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    transition: 0.3s ease-in;   
+
+    
+
+    position: relative;
+
+    .icon{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer; 
+
+        transition: 0.3s ease-in;   
+    }
+
+     .icon:hover{
+            color: rgba(223, 148, 8, 0.87);
+        }
+
+        div.desc-product{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            
+            
+
+
+            p{  
+        text-align: center;
+        line-height: 22px;
+        }
+
+        span{
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        color: #FF8200;
+        }
+        }
+
+        button{
+            padding:10px 20px;
+            width: 260px;
+
+            border-radius: 6px;
+
+            font-weight: bold;
+            font-size: 16px;
+            
+            background-color: #FF8200;
+
+            cursor: pointer;
+
+            z-index: -1;
+
+    
+        }
+    
+   
+}
+
+div.home-card:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+
+    button{
+        z-index: 1;
+    }
+
+    
+}
