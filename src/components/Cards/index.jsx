@@ -9,7 +9,7 @@ function ProductBlitz({ product }) {
           <h2>{product.name}</h2>
           <span>{product.price}</span>
           <div className='card'></div>
-          <button>Entra ai zé!</button>
+          <button>Ver mais</button>
         </div>
       </div>
     );

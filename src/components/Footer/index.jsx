@@ -7,7 +7,7 @@ const Footer = () => {
     return (
     <footer>
         <section>
-            <ul className="horizontal-list">
+            <ul className="horizontal-footer">
                 <li>Contato</li>
                 <li>Sobre</li>
             </ul>

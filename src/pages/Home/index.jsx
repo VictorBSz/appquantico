@@ -9,8 +9,8 @@ export default function Home() {
     <>
          <div>
             <Nav />
-                <div className="container">
-                    <section>
+                <div className="border-home">
+                    <section className='section-home'>
                         <h1> Testando cards de produtos:</h1>
                         <Produtos />
                     </section>
