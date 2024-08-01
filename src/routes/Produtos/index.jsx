@@ -23,8 +23,8 @@ function Produtos() {
         },
         {
             cod: 4,
-            name: 'Radeon™ RX 6750 XT GAMING OC 12G',
-            image: 'src/assets/produtos/rx7650xt.png',
+            name: 'Radeon™ RX 7600 GAMING OC 12G',
+            image: 'src/assets/produtos/rx7600.png',
             price: 'R$ 950',
         },             
     ]
