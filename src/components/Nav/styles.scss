@@ -12,14 +12,19 @@
     display: flex;
     justify-content: space-evenly; // Pode usar space-between, space-evenly, flex-start, flex-end, etc.
     list-style-type: none; // Remove os marcadores padrão
-    padding-top: 20px;
-    padding-bottom: 20px;
+
     margin: 0;
     background-color: #80A0E5; // Cor de fundo opcional
-    width: 100%;
+   
     
     .horizontal-nav li {
       padding: 10px 10px
+    }
+
+    .logo{
+      max-width: 100px;
+      max-height: 1000px;
+
     }
   }
 

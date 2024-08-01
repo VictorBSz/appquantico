@@ -5,6 +5,7 @@ import Sobre from "../pages/Sobre/index"
 import Contato from "../pages/Contato/index"
 import Produtos from "../pages/Produtos/index"
 
+
 export default function AppRoutes() {
     return(
         <BrowserRouter>
