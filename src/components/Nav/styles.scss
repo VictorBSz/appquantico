@@ -10,25 +10,30 @@
   
   .horizontal-nav {
     display: flex;
-    justify-content: space-evenly; // Pode usar space-between, space-evenly, flex-start, flex-end, etc.
+    // Pode usar space-between, space-evenly, flex-start, flex-end, etc.
     list-style-type: none; // Remove os marcadores padrão
-
     margin: 0;
     background-color: #80A0E5; // Cor de fundo opcional
    
     
-    .horizontal-nav li {
-      padding: 10px 10px
+    li {
+      position: relative;
+      display: flex;
+      font-size: 20px;
+      align-items: center;
+      text-align: center;
+      margin-right: 50px;
     }
 
     .logo{
+      font-size: 10px;
+      margin-left: 40px;
       max-width: 100px;
-      max-height: 1000px;
-
+      max-height: 70px;
     }
   }
 
-  #home {
-    color: green
-
-  }
+  h1 {
+    max-height: 100px;
+    padding-right: 300px;
+    }
