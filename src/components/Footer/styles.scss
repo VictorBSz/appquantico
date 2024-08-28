@@ -3,9 +3,8 @@
     display: flex;
     justify-content: space-evenly; // Pode usar space-between, space-evenly, flex-start, flex-end, etc.
     list-style-type: none; // Remove os marcadores padrão
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0;
-    background-color: #9b9999; // Cor de fundo opcional
+    padding: 20px 0;
+    margin: 200px 0;
+    background-color: var(--bar-color); // Cor de fundo opcional
     width: 100%;
 }
