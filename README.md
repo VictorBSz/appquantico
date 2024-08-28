@@ -33,7 +33,7 @@ Projeto pessoal em colaboração com [JonataRaff](https://github.com/Jonataraff)
 
 ## 🔖 Layout
 
-Após tivermos concluido a base de como o site irá operar, deixarei disponibilizado aqui um link para nosso planejamento no Figma quando estiver concluido e também um link para preview desse projeto, como uma forma de dar uma ideia sobre nossos proximos passos.
+Após tivermos concluido a base de como o site irá operar, deixarei disponibilizado aqui um link para nosso planejamento e layout no Figma e também um link para preview desse projeto, como uma forma de dar uma ideia sobre nossos proximos passos.
 
 ## :memo: Licença
 
