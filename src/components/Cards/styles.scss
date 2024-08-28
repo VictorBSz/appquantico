@@ -1,130 +1,100 @@
-.product-card {
-   
-    border-radius: 20px;
-    padding: 16px;
-    margin: 8px;
-    width: 200px;
-    background-color: rgb(243, 203, 92);
-    width: 400px
-  }
-  
-  .product-card img {
-    width: 100%;
-    height: auto;
-    max-width: 370px;
-    max-height: 295px;
-    border-radius: 20px;
-  }
-  
-  .product-card h2 {
-    margin-top: 8px;
-    font-size: 18px;
-    padding-bottom: 10px;
-  }
-  
-  .product-card span {
+// Variáveis
+$max-width: 890px;
+$home-card-width: 150px;
+$home-card-height: 270px;
+$home-card-bg-color: white;
+$box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+$border-radius: 6px;
+$transition: 0.3s ease-in;
+$icon-hover-color: rgba(223, 148, 8, 0.87);
+$price-color: #4040E6;
+$button-bg-color: #40DDE6;
+$button-bg-hover: #ffffff;
 
-  background-color: rgb(235, 126, 2);
-  color: #fff;
-  border: none;
-  padding: 4px 20px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  
+// Container de produtos
+.produtos {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  max-width: $max-width;
 }
 
-.produtos {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
+// Estilo do card de produto
+.home-card {
+  width: $home-card-width;
+  height: $home-card-height;
+  max-height: 400px;
+  font-size: small;
+  background-color: $home-card-bg-color;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  margin: 20px 30px 20px 0;
+  transition: $transition;  
+  position: relative;
+
+  // Ícone
+  .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer; 
+    transition: $transition;
+
+    &:hover {
+      color: $icon-hover-color;
+    }
   }
 
-// A partir daqui ui do homecard do projeto do zecao
-
-  div.home-card{
-    width: 280px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 6px;
+  // Descrição do produto
+  .desc-product {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 20px;
-    padding: 10px 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-right: 30px;
-    transition: 0.3s ease-in;   
+    gap: 10px;
 
-    
-
-    position: relative;
-
-    .icon{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        cursor: pointer; 
-
-        transition: 0.3s ease-in;   
+    p {
+      text-align: center;
+      line-height: 22px;
     }
 
-     .icon:hover{
-            color: rgba(223, 148, 8, 0.87);
-        }
+    h2 {
+      padding-bottom: 35%;
+      max-block-size: 15%;
+    }
 
-        div.desc-product{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            gap: 10px;
-            
-            
+    span {
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      color: $price-color;
+    }
+  }
 
+  // Botão
+  button {
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: $border-radius;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: $button-bg-color;
+    cursor: pointer;
+    display: none;
+  }
 
-            p{  
-        text-align: center;
-        line-height: 22px;
-        }
-
-        span{
-        font-weight: bold;
-        font-size: 24px;
-        text-align: center;
-        color: #4040E6;
-        }
-        }
-
-        button{
-            padding:10px 20px;
-            width: 260px;
-
-            border-radius: 6px;
-
-            font-weight: bold;
-            font-size: 16px;
-            
-            background-color: #40DDE6;
-
-            cursor: pointer;
-
-            z-index: -1;
-
-    
-        }
-    
-   
-}
-
-div.home-card:hover{
+  // Hover no card
+  &:hover {
     cursor: pointer;
     transform: scale(1.02);
 
-    button{
-        z-index: 1;
-    }
 
-    
+    button {
+      z-index: 1;
+      display: flex;
+    }
+  }
 }
