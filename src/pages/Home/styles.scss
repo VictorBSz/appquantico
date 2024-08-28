@@ -4,29 +4,25 @@
     margin: 50px 0;
    }
 
-main {
-    width: 1869px;
+body {
+    width: 100%;
     height: 1080px;
-    background-image: url("../../assets/imgbr.jpg");
+    background-image: var(--bg-url);
     background-size: cover;
     background-position: center;
 }
 
-.border-home {
+#carrossel {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura total da viewport */
-    margin: 0; /* Remove margens padrão */
-    background-color: #f0f0f0; /* Cor de fundo para visualização */
-    width: 1869px;
-    height: 1080px;
-    background-image: url("../../assets/imgbr.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 100px; /* Altura total da viewport */
+    margin: 100px; /* Remove margens padrão */
+    border: 1px solid red;
+    padding: 50px;
   }
 
-.section-home {
+#section-home {
     background-color: white;
     display: inline-block; /* Permite que a seção encolha para caber apenas no conteúdo */
     padding-left: 30px; /* Ajuste o padding conforme necessário */
@@ -37,4 +33,5 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adiciona sombra para profundidade */
     max-width: 80%; /* Define a largura máxima */
     box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+    border: 1px solid red;
   }
