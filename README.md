@@ -1,7 +1,7 @@
 <h1 align="center"> QuantiQ Hardware </h1>
 
 <p align="center">
-Projeto pessoal em colaboração com JonataRaff para criação de um site de venda de hardware e montagem de Computadores, com o intúito de aprendizagem e troca de conhecimentos e ideias.
+Projeto pessoal em colaboração com [JonataRaff](https://github.com/Jonataraff) para criação de um site de venda de hardware e montagem de Computadores, com o intúito de aprendizagem e troca de conhecimentos e ideias.
 </p>
 
 <p align="center">
